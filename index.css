@@ -1,0 +1,134 @@
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    color: white;
+}
+p{
+    word-spacing: 4px;
+    line-height: 1.1em;
+    color: white;
+}
+div.flex{
+    display: flex;
+}
+img.logo{
+    margin-top:3%;
+    margin-left: 3%;
+}
+img.main{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+div.side{
+    margin-top: 6.5%;
+    margin-left: 8%;
+    width: 30%;
+}
+button{
+    border: 1px solid white;
+    padding: 15px 60px ;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: rgb(118, 22, 207);
+    font-size: medium;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    background-color: rgb(240, 131, 240);
+}
+div.icons{
+    display:flex;
+    margin-left: 82%;
+    
+    margin-top: 2%;
+    color: white;
+}
+i{
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.icons a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.fa-facebook:hover{
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 50%;
+    padding: 10px;
+   
+}
+.fa-twitter:hover{
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.fa-instagram:hover{
+    color: rgb(207, 188, 203);
+    border: 1px solid pink;
+    border-radius: 50%;
+    padding: 10px;
+   
+}
+@media  screen and (max-width:1080px) {
+    body{
+        background-image: url(images/bg-mobile.svg);
+        background-color:  hsl(257, 40%, 49%);
+        text-align: center; 
+        background-size: cover;
+    }
+    img.logo{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    div.side{
+        display: block;
+        text-align: center;
+        width: 80%;
+        
+    }
+    button{
+        margin-top: 10%;
+        width: inherit;
+    }
+    div.flex{
+       display: block;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    p{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        word-spacing: normal;
+    }
+    img.main{
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    div.icons{
+       align-items: center;
+       margin-left: 40%;
+       margin-top: 15%;
+    }
+    
+}
